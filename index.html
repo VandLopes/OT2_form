@@ -4,51 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evento Tech 2025</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-    <h1>Inscrição para Evento Tech 2025</h1>
-    <p>Complete o formulário abaixo para se inscrever no evento</p>
     <section>
-        <form>
-            <fieldset>
+        <h2>Inscrição para Evento Tech 2025</h2>
+        <p>Complete o formulário abaixo para se inscrever no evento</p>
+        <form name="frmInput" method="get" class="formInput">
                 <legend>Informações Pessoais: </legend>
-                <label for="nome">Nome: </label>
-                <input type="text" name="txtnome"></input>
-                <label for="email">Email: </label>
-                <input type="email" name="txtemail"></input>
-                <label for="password">Senha: </label>
-                <input type="password" name="txtpassword"></input>
-                <label for="idade">Idade: </label>
-                <input type="text" name="txtidade"></input>
-                <label for="nascimento">Nascimento: </label>
-                <input type="date" name="txtdata"></input>
-            </fieldset>
-
-            <fieldset>
+                <input type="text" name="txtnome" class="grupoInput" placeholder=" Nome completo"></input>
+                <input type="email" name="txtemail" class="grupoInput" placeholder=" E-mail"></input>
+                <input type="password" name="txtpassword" class="grupoInput" placeholder=" Crie uma senha"></input>
+                <input type="text" name="txtidade" class="grupoInput" placeholder=" Idade"></input>
+                <input type="date" name="txtdata" class="grupoInput" placeholder="dd/mm/aaaa"></input>
                 <legend>Preferências do Evento: </legend>
-                <label for="temaInteresse">Tema de Interesse: </label>
+                <label for="temaInteresse"></label>
                 <select>
+                    <option>Selecione um tema de interesse</option>
                     <option>Front-end</option>
                     <option>Back-end</option><
                 </select>
-                <label for="Workshop">WorkShop:</label>
-                <input type="checkbox">
-                <label>Desenvolvimento Web Moderno</label>
-                <input type="checkbox">
-                <label>Introdução à Inteligência Artificial</label>
-                <input type="checkbox">
-                <label>Segurança na Internet</label>
-            </fieldset>
-
-            <fieldset>
+                <div class="checkbox-group">
+                    <input type="checkbox">
+                    <label>Segurança</label>
+                    <input type="checkbox">
+                    <label>Segurança</label>
+                    <input type="checkbox">
+                    <label>Segurança</label>
+                </div>
                 <legend> Submissão de Apresentação</legend>
-                <label>Título:</label>
-                <input type="text">
-                <label>Resumo:</label>
-                <textarea></textarea>
-                <label>Anexar apresentação (PDF)</label>
-                <input type="file">
-            </fieldset>
+                <input type="text" class="grupoInput" placeholder=" Título da Apresentação">
+                <textarea placeholder=" Resumo da Apresentação"></textarea>
+                <input type="file" class="grupoInput">
+           
 
             <button>Enviar Inscrição</button>
 
