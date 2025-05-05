@@ -1,72 +1,64 @@
-legend{
-
-    color: rgb(34, 93, 255);
+legend {
+  color: rgb(34, 93, 255);
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-
-body{
-    
-    margin: 0 auto;
-    font-family: "Century Gothic", sans-serif;
-    background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
-.formInput{
-    width: 300px;
-    margin: 0px auto;
-    font-weight: bold;
-    margin-bottom: 10px;
+body {
+  margin: 0 auto;
+  font-family: "Century Gothic", sans-serif;
+  background-color: whitesmoke;
 }
 
-
-
-.formInput input, .formInput textarea, .formInput select {
-
-    margin: 5px auto;
-    width: 100%;
-    padding: 5px 0;
+.formInput {
+  width: 300px;
+  margin: 0px auto;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.formInput textArea{
-    height: 100px;
-    resize: none;
+.formInput input,
+.formInput textarea,
+.formInput select {
+  margin: 5px auto;
+  width: 100%;
+  padding: 5px 0;
 }
 
-
-section{
-    clear:both;
-    min-height:850px;
-    width: 100%;
-    margin-top:0px;
-    width: 900px;
-    margin:0px auto;
-    height: 250px;
+.formInput textArea {
+  height: 100px;
+  resize: none;
 }
 
-section p, section h2{
-    clear: both;
-    text-align: center;
-    margin: 10px 80px;
+section {
+  clear: both;
+  min-height: 850px;
+  width: 100%;
+  margin-top: 0px;
+  width: 900px;
+  margin: 0px auto;
+  height: 250px;
 }
 
-button{
-    
-    background-color:rgb(34, 93, 255);;
-    color: white;
-    width: 100%;
-    
+section p,
+section h2 {
+  clear: both;
+  text-align: center;
+  margin: 10px 80px;
+}
+
+button {
+  background-color: rgb(34, 93, 255);
+  color: white;
+  width: 100%;
 }
 .checkbox-group {
   display: flex;
   gap: 10px; /* espaçamento entre os checkboxes */
   align-items: center;
 }
-
-
-    
